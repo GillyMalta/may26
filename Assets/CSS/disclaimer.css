@@ -5,6 +5,11 @@
     font-weight: 100;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .mainContainer {
     position: relative;
     height: 100dvh;
