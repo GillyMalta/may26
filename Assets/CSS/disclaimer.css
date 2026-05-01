@@ -1,121 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mogra&display=swap');
 
-#disclaimer {
-    height: 100dvh;
+* {
     font-family: 'Khand';
+    font-weight: 100;
 }
 
-.mainContainer {
-    position: relative;
-    height: 100dvh;
-    width: 99dvw;
-    margin-bottom: 0.5rem;
-}
-
-.imagesContainer {
+nav {
     position: absolute;
-    height: 100dvh;
-    width: 99dvw;
-    object-fit: contain;
-    overflow: hidden;
-    z-index: 200;
-}
-
-.meeting {
-    width: 100%;    
-    height: auto;
-    opacity: 0.6;
-}
-
-.meeting {
-    mask-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 1)
-    );
-
-    -webkit-mask-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 1)
-    );
-}
-
-.text {
-    position: absolute;
-    top:15%;
-    left: 5%;
-    font-size: 3rem;
-}
-
-.text p {
-    font-size: 1.5rem;
-}
-
-.heading {
-    position: absolute;
-    top: 5%;
-    left:5%;
-    z-index: 300;
-    height: 10dvh;
-}
-
-.disclaimerContainer {
-    position: absolute;
-    height: 70dvh;
-    width: inherit;
-    display: grid;
-    grid-template-columns: repeat(4 ,1fr);
-    z-index: 400;
-    top:65%;
-}
-
-.peeContainer {
-    position: absolute;
-    left: 20%
-}
-
-.box {
-    justify-self: center;    
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-align: center;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 3.0rem; */
+    width: 98dvw;
     height: 30dvh;
-    width: 20dvw;
-    transition: ease-in-out 1.0s;
-    border-radius: 1.0rem;
+    bottom: 0;
+    background-color: lightgrey;
     padding: 0.5rem;
 }
 
-.box {
-    gap: 1rem;
-    will-change: transform;
-    transform: translateX(-100%);
-    animation: containerSlideIn 0.8s ease-out forwards;
-}
-
-        @keyframes containerSlideIn {
-        to {
-        transform: translateX(0);
-        }
-}
-
-.inverted {
-    filter: invert(1);
-}
-
-.box a {
-    color: white;
+/* nav a {
     list-style: none;
     text-decoration: none;
-}
-
-.box p,
-.box h2 {
-    text-align: left;
-}
-
-.box:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px black;
-}
+    color: black;
+    font-size: 1.5rem;
+    color: #dc0000;
+    font-weight: bold;
+} */
