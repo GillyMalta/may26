@@ -5,7 +5,7 @@
     font-weight: 100;
 }
 
-nav {
+#disclaimer {
     position: absolute;
     /* display: flex; */
     /* flex-direction: row; */
@@ -14,16 +14,39 @@ nav {
     /* gap: 3.0rem; */
     width: 98dvw;
     height: 30dvh;
-    bottom: 0;
+    bottom: 10;
     background-color: lightgrey;
     padding: 0.5rem;
 }
 
-/* nav a {
+nav {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.0rem;
+    width: 99dvw;
+    height: 6dvh;
+    bottom: 0;
+    background-color: black;
+}
+
+nav a {
     list-style: none;
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
     color: #dc0000;
     font-weight: bold;
-} */
+}
+
+.bottomButtons {
+    height: 5dvh;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 1rem;
+    color: black;
+    font-size: 1.5rem;
+}
