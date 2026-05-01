@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mogra&display=swap');
 
+h1 {
+    color: #dc0000;
+}
+
 h2,
 h3 {
     grid-column: 1 / -1;
