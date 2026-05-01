@@ -1,7 +1,7 @@
 // disclaimer.js
 document.addEventListener("DOMContentLoaded", () => {
 //   fetch("../Sidemenu/Sidemenu.HTML")
-  fetch("../contacts.html")
+  fetch("./pages/contacts.html")
     .then(response => response.text())
     .then(data => {
       document.getElementById("contactme").innerHTML = data;
