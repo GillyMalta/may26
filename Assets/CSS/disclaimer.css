@@ -21,7 +21,7 @@
     /* justify-content: center; */
     /* align-items: center; */
     /* gap: 3.0rem; */
-    width: 98dvw;
+    width: 100dvw;
     height: 30dvh;
     bottom: 30;
     background-color: lightgrey;
@@ -35,7 +35,7 @@ nav {
     justify-content: center;
     align-items: center;
     gap: 3.0rem;
-    width: 99dvw;
+    width: 100dvw;
     height: 6dvh;
     bottom: 0;
     background-color: black;
