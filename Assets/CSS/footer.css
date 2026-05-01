@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mogra&display=swap');
+
+footer {
+    font-family: 'Khand';
+    height: 100dvh;
+    display: grid;
+    grid-template-columns: 50% auto;
+    background-color: lightgrey;
+}
+
+.footerContainer {
+    position: absolute;
+    height: 70dvh;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 50% auto;
+    z-index: 400;
+    top:15%;
+}
+
+#leftHandSide {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    padding: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+
+/* .top {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    transition: ease-in-out 1s;
+    border-radius: 0.5rem;
+    justify-items: center;
+}
+
+.top:hover {
+    box-shadow: 0 10px 20px black;
+}
+
+.bottom {
+    border-top: black solid 1px;
+    padding: 0.5rem;
+    transition: ease-in-out 1s;
+    display: grid;
+    grid-template-rows: repeat(3 1,fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+.bottom:hover {
+    box-shadow: 0 10px 20px black;
+}
+
+form {
+    font-family: 'Khand';
+    border-left: black solid 1px; 
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 0.5rem;
+    height: 80dvh;
+    transition: ease-in-out 1s;
+}
+
+form:hover {
+    box-shadow: 0 10px 20px black;
+}
+
+label {
+    padding: 0.5rem;
+    text-align: right;
+    align-self: center;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+    background-image: url(/Assets/Images/background3.jpg);
+    font-family: 'Khand';
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+select {
+    margin-bottom: 0.5rem;
+    background-image: url(/Assets/Images/background3.jpg);
+    background-color: lightgrey;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    height: 20dvh;
+    background-color: transparent;
+    background-image: url(/Assets/Images/background3.jpg);
+    font-family: 'Khand';
+    border: none;
+    cursor: pointer;
+}
+
+#sendIt {
+    font-family: 'Khand';
+    width: 10dvw;
+    justify-self: center;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    transition: ease-in-out 1s;
+    font-size: 1.5rem;
+}
+
+#sendIt:hover {
+    transform: scale(1.01);
+    color: #dc0000;
+    font-size: 1.5rem;
+}
+
+.required {
+    color: #dc0000;
+    font-weight: bold;
+}
+
+.holder {
+    height: 2dvh;
+}
+
+.pics {
+    height: 8dvh;
+    transition: ease-in-out 1s;
+    opacity: 0.1;
+    filter: invert(1);
+}
+
+.pics:hover {
+    transform: scale(1.5);
+    opacity: 1.0;
+    filter: invert(0);
+}

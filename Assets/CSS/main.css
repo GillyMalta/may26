@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mogra&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Khand';
+}
+
+h1,
+h2,
+p {
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    position: relative;
+    height: 100dvh;
+    width: 99dvw;
+    margin-bottom: 0.5rem;
+}
+
+.imagesContainer {
+    position: absolute;
+    height: 100dvh;
+    width: 99dvw;
+    object-fit: contain;
+    overflow: hidden;
+    z-index: 200;
+}
+
+.heading {
+    position: absolute;
+    top: 5%;
+    left:5%;
+    z-index: 300;
+    height: 10dvh;
+}
+
+.blocksContainer {
+    position: absolute;
+    height: 70dvh;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 10% 20% 10% auto 10%;
+    z-index: 400;
+    top:15%;
+}
+
+.blocksContainer p {
+    grid-column: 1 / -1;
+}
+
+.block1 {
+    height: 73dvh;
+}
+
+.block2 {
+    padding: 0.5rem;
+    background-color: rgba(211, 211, 211, 0.1);
+    transition: ease-in-out 1.0s;
+    border-radius: 0.5rem;
+    display: grid;
+    grid-template-rows: 90% auto;
+}  
+
+.block2 {
+    gap: 1rem;
+    will-change: transform;
+    transform: translateX(-100%);
+    animation: containerSlideIn 0.8s ease-out forwards;
+    }
+
+        @keyframes containerSlideIn {
+        to {
+        transform: translateX(0);
+        }
+}
+
+.block2:hover {
+    background-color: rgba(211, 211, 211, 0.2);
+    box-shadow: 0 10px 20px black;
+    color: black;
+}
+
+.block2sub1 {
+    text-align: justify;
+    color: black;
+    transition: ease-in-out 1.0s;
+}
+
+.block2sub1:hover {
+    color: black;
+}
+
+.block2sub2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 1.0s;
+}
+
+.launch {
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-family: 'Khand';
+    cursor: pointer;
+    transition: ease-in-out 1.0s;
+}
+
+.launch:hover {
+    transform: scale(1.05);
+    color: #dc0000;
+}
+
+.block4 {
+    height: 83dvh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    opacity: 0.1;
+    transition: ease-in-out 1.0s;
+    border-radius: 0.5rem;
+}
+
+.block4 a {
+    cursor: zoom-in;
+}
+
+.block4:hover {
+    opacity: 0.8;
+    box-shadow: 0 10px 20px black;
+    transform: scale(1.05);
+}
+
+.block4 h2 {
+    position: absolute;
+    padding: 0.5rem;
+}
+
+.blockImage {
+    height: stretch;
+    width: stretch;
+}
+
+.block4 {
+    gap: 1rem;
+    will-change: transform;
+    transform: translateX(-100%);
+    animation: containerSlideIn 0.8s ease-out forwards;
+}
+
+        @keyframes containerSlideIn {
+        to {
+        transform: translateX(0);
+        }
+}
+
+#aboutMe {
+    height: 100dvh;
+}
+
+.aboutMeContainer {
+    position: absolute;
+    height: 70dvh;
+    width: inherit;
+    display: grid;
+    grid-template-columns: 10% auto 10% 20% 10%;
+    z-index: 400;
+    top:15%;
+}
+
+#copyright {
+    height: 5dvh;
+}
