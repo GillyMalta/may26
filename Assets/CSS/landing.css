@@ -1,12 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&family=Mogra&display=swap');
 
+* {
+    font-family: 'Khand';
+    font-weight: 100;
+}
+
 h1 {
     color: #dc0000;
+    font-size: 5rem;
 }
 
 h2,
 h3 {
     grid-column: 1 / -1;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
@@ -59,26 +78,8 @@ h3 {
     overflow: hidden;
 }
 
-* {
-    font-family: 'Khand';
-    font-weight: 100;
-}
-
-h1 {
-    font-size: 5rem;
-}
-
-h1,
-h2,
-h3 {
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-body {
-    margin: 0;
-    padding: 0;
+.rightHandSide img {
+    width: 100%;
 }
 
 .heading {
