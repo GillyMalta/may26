@@ -3,6 +3,7 @@
 * {
     font-family: 'Khand';
     font-weight: 100;
+    transition: ease-in-out 0.5s;
 }
 
 h1 {
@@ -125,11 +126,6 @@ nav a {
 
 #disclaimer {
     position: absolute;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* gap: 3.0rem; */
     width: 100dvw;
     height: 30dvh;
     bottom: 30;
