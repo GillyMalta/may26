@@ -3,6 +3,7 @@
 * {
     font-family: 'Khand';
     font-weight: 100;
+    transition: ease-in-out 1.0s;
 }
 
 h1 {
@@ -50,13 +51,7 @@ body {
     border-top: solid black 1px;
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
-    /* justify-items: center; */
-    /* align-items: center; */
     text-align: center;
-}
-
-.icons {
-    transition: ease-in-out 1.0s;
 }
 
 .icons {
